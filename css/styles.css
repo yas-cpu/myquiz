@@ -1,6 +1,6 @@
 body {
   background: #efdec1;
-  font-size: 14px;
+  font-size: 18px;
   font-family: Verdana, sans-serif;
 }
 
@@ -11,6 +11,7 @@ body {
   border-radius: 4px;
   padding: 16px;
   position: relative;
+  
 }
 
 #question {
@@ -100,4 +101,10 @@ body {
 #result > a {
   display: block;
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
 }
